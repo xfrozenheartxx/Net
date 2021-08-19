@@ -46,11 +46,7 @@ void updateDots() {
 void renderDots() {
   noStroke();
   for (int i = 0; i < nDots; i++) {
-    fill(0);
-    ellipse(dots[i].x, dots[i].y, 6, 6);
-
-    fill(127, 100);
-    ellipse(dots[i].x, dots[i].y, 33, 33);
+    
     
     image(orangeImg, dots[i].x-16, dots[i].y -16, 32, 32);
     
